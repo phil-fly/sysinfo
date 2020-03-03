@@ -34,8 +34,8 @@ func main(){
     "diskInfo":[
         {
             "path":"/",
-            "total":"849 GiB",
-            "used":"300 GiB"
+            "total":"849 GB",
+            "used":"300 GB"
         },
         {
             "path":"/boot",
@@ -45,7 +45,7 @@ func main(){
         },
         {
             "path":"/home",
-            "total":"72 GiB",
+            "total":"72 GB",
             "used":"59 MB"
         }
         ],
