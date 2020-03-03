@@ -40,7 +40,7 @@ func handle(data uint64) string {
 		return fmt.Sprintf("%v MB", strconv.FormatUint(data/1024/1024, 10))
 	}
 
-	return fmt.Sprintf("%v GiB", strconv.FormatUint(data/1024/1024/1024, 10))
+	return fmt.Sprintf("%v GB", strconv.FormatUint(data/1024/1024/1024, 10))
 }
 
 func check(err error) {
